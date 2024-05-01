@@ -16,7 +16,7 @@ Running the test:
 1. To execute the automated test, type: jest main.test.js --> press Enter
 2. A report file: test-report.html wil be created in the folder, this report shows result of the automated test executed earlier
 
-Explanation about the test
+Explanation about the test /n
 This automated test code is an End to End Testing Simulating, it tries to mimic real user interactions with the UI through a browser i.e. clicking elements, filling textbox, and verifying outcomes.
 The test scenarios are as below:
 1. Positive #1: Add a New Task: this test scenario is simply adding a new task
