@@ -8,7 +8,8 @@ Installation guide:
 4. Download the code in this repository as zip file, copy into a designated location in your computer e.g. C:\dev, extract the content so it would be C:\dev\testing_jest-main\ and there is no more subfolder inside
 5. Open a command prompt by clicking on window button --> Type: Run --> press Enter --> on the small pop up window key in: cmd --> press Enter
 6. A command prompt would show up, navigate it into the designaed folder where the code is residing now, for example if the location is C:\dev then type: cd C:\dev\testing_jest-main
-7. Type: dir --> press Enter, you should see main.test.js and package.json
+7. Type: dir --> press Enter, you should see readme.md, main.test.js and package.json
 8. Type: npm install --> press Enter
 9. Type: npm install -g jest@29.7.0 --> press Enter
 10. To execute the automated test, type: jest main.test.js --> press Enter
+11. A report file: test-report.html wil be created in the folder, this report shows result of the automated test executed earlier
