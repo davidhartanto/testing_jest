@@ -8,8 +8,6 @@ Installation guide:
 4. Open a command prompt by clicking on window button --> Type: Run --> press Enter --> on the small pop up window key in: cmd --> press Enter
 5. A command prompt would show up, navigate it into the designaed folder where the code is residing now, for example if the location is C:\jest then type: cd C:\jest
 6. Type: dir --> press Enter, you should see main.test.js and package.json
-7. Type: npm install -g npm --> press Enter
-8. Type: npm install -g selenium-webdriver --> press Enter
-9. Type: npm install -g chromedriver --> press Enter
-10. Type: npm install -g jest --> press Enter
-11. To execute the automated test, type: jest main.test.js --> press Enter
+7. Type: npm install --> press Enter
+8. Type: npm install -g jest@29.7.0 --> press Enter
+9. To execute the automated test, type: jest main.test.js --> press Enter
