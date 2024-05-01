@@ -1,9 +1,7 @@
 {
   "dependencies": {
     "chromedriver": "^124.0.1",
-    "selenium-webdriver": "^4.20.0"
-  },
-  "devDependencies": {
+    "selenium-webdriver": "^4.20.0",
     "jest": "^29.7.0"
   },
   "name": "testmvc",
