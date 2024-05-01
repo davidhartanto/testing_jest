@@ -96,7 +96,7 @@ test('Positive #5: Delete a Completed Task', async () => {
 });
 
 
-test('Negative #1: It is impossible to add Task with Empty Description', async () => {
+test('Negative #1: Add Task with Empty Description', async () => {
     const taskInput = await driver.findElement(By.className('new-todo'));
     await taskInput.sendKeys(Key.ENTER); // Send only an Enter keypress (empty input)
 
