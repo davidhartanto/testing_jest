@@ -9,5 +9,5 @@ Installation guide:
 5. A command prompt would show up, navigate it into the designaed folder where the code is residing now, for example if the location is C:\jest then type: cd C:\jest
 6. Type: dir --> press Enter, you should see main.test.js and package.json
 7. Type: npm install -g npm --> press Enter
-8. Type: npm install -g jest
-9. To execute the automated test, type: jest main.test.js
+8. Type: npm install -g jest --> press Enter
+9. To execute the automated test, type: jest main.test.js --> press Enter
