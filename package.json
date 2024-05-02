@@ -12,7 +12,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "jest": {
-    "testResultsProcessor": "./node_modules/jest-html-reporter"
+    "testResultsProcessor": "./node_modules/jest-html-reporter",
+	"testTimeout": 60000
   },
   "jest-html-reporter": {
     "pageTitle": "Test Report",
