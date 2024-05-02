@@ -1,5 +1,7 @@
 # testing_jest
-Automated test developed with jest (node js)
+Automated test on the following website: https://todomvc.com/examples/react/dist/ 
+
+Developed with jest (node js) and selenium
 
 Installation guide:
 1. Download and install Google Chrome browser if it does not exist in your local computer
@@ -17,7 +19,7 @@ Running the test:
 2. A report file: test-report.html wil be created in the folder, this report shows result of the automated test executed earlier
 
 Explanation about the test
-- This automated test code is an End to End Testing Simulating, it tries to mimic real user interactions with the UI through a browser i.e. clicking elements, filling textbox, and verifying outcomes.
+- This automated test code is an End to End Testing Simulating of https://todomvc.com/examples/react/dist/, it tries to mimic real user interactions with the UI through a browser i.e. clicking elements, filling textbox, and verifying outcomes.
   
 The test scenarios are as below:
 1. Positive #1: Add a New Task: this test scenario is simply adding a new task
